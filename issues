@@ -1,0 +1,2 @@
+- Todas as collections do Postman seriam atualizadas a cada build (mesmo as não atualizadas)
+- Para criar o html do ReDoc, precisamos saber a url de onde está exposto a SPEC do serviço

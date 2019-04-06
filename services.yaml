@@ -1,0 +1,17 @@
+repo-spec-1:
+  name: Testing concept (repo number 1)
+  description: No description available
+  mainteners:
+    - Caio Zem (caioadz@hotmail.com)
+  repo: git@github.com:caioadz/repo-spec-1.git
+  branch: master
+  spec_dir: spec
+  spec_file: docker-engine-spec.yaml
+repo-spec-2:
+  name: Testing concept (repo number 2)
+  description: No description available
+  mainteners:
+    - Caio Zem (caioadz@hotmail.com)
+  repo: git@github.com:caioadz/repo-spec-2.git
+  spec_dir: doc
+  spec_file: rebilly-spec.json
