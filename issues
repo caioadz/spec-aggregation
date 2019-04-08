@@ -1,2 +1,15 @@
 - Todas as collections do Postman seriam atualizadas a cada build (mesmo as não atualizadas)
+
 - Para criar o html do ReDoc, precisamos saber a url de onde está exposto a SPEC do serviço
+
+- Como fazer upload da Collection?
+-- Endpoint de Import do Postman
+--- Ele não parece ter uma forma de atualizar uma Collection, apenas criar
+--- Isso quer dizer que precisaríamos deletar e recriar todas as collections
+-- Endpoint de Create/Update do Postman
+--- Seria preciso converter de OpenAPI para Postman
+--- Poderíamos usar o openapi2postmanv2 (https://github.com/postmanlabs/openapi-to-postman)
+
+- Conversão entre padrões parecem ser chatas
+-- Não consegui importar a spec do Rebilly usando os endpoints do Postman (openapi > postman)
+-- Mas eu consigo importar pelo client...
